@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- "Lang" wybieramy język programowania-->
+
+<head>
+    <!-- Głowa/mózg - czyli to co tu napiszemy nie jest widoczne dla użytkownika. "Silnik", jak ma działać-->
+    <meta charset="utf-8">
+    <!--to pozwala na polskie znaki-->
+    <title>Projekt</title>
+    <!--mój tytuł projektu-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <!--podłączenie "fontawesome.com" strony do naszego "index.html" aby dodać małe szablonki jak ten kciuk przy "programowania" w projekcie -->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700i|Fira+Sans" rel="stylesheet">
+    <!-- Wybraliśmy czcionkę z strony internetowej -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- podłączenie "styl.CSS" do naszego "index.html"-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--(ten kod powoduje aby ten projekt dobrze działał pod względem graficznym w urządzeniach mobilnych) - Pierwsza część (content="width=device-width) ustawia szerokość strony tak, aby odpowiadała szerokości urządzenia. Druga (initial-scale=1.0) ustawia początkowy poziom powiększenia (zoom) na urządzeniach mobilnych -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="splash">
+        <div class="splash-innet">
+            <div class="container">
+                <!-- Nawigacja-->
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <a class="navbar-brand">
+                        <!-- Dodajemy nazwę firmy -->
+                        GOLD LIBRARY
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation"> <!-- umieścimy od razu przycisk "hamburgera", który będzie rozwijał nawigację. Ma on następującą postać -->
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="mobile-menu">
+                        <!-- Nie rozumiem dlaczego (class ="collapse" "navbar-collapse" id="mobile-menu")  -->
+
+                        <div class="nawigacja">
+                            <ul class="navbar-nav">
+
+                                <li class="dropdown">
+                                    <a class="nav-link" href="#">
+                                        HOME
+                                        </a>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link" href="#">
+                                        ABOUT
+                                        </a>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link" href="#">
+                                        PORTFOLIO
+                                        </a>
+                                </li>
+
+                                <li>
+                                    <a class="nav-link" href="#">
+                                        CONTACT
+                                        </a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+
+                    </div>
+                </nav>
+
+                <h3 class="page-subtitle"> Welcome to our studio! </h3>
+                <h1 class="page-title"> IT'S NICE TO MEET YOU</h1>
+                <div class="butt"> <button type="button" class="btn btn-warning">TEL ME MORE</button> </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="our-portfolio">
+        <div class="container">
+            <h1 class="section_title">
+                <B>OUR PORTFOLIO </B> </h1>
+            <p class="subservice">Proin iaculis purus consequat sem cure.</p>
+
+            <div class="row">
+
+
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6">
+                            <!--Pierwszy kafelek-->
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://i.postimg.cc/kXKNMLKn/pexels-brett-sayles-3500214-5.jpg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <B>Ebony & Ivory</B>
+                                    </h5>
+                                    <p>Branding</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <!--Drugi kafelek-->
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://i.postimg.cc/B6RhkH9N/pexels-ann-poan-5797997.jpg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <B>Smart Stationary</B>
+                                    </h5>
+                                    <p>Print Design</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!------------->
+                        <div class="col-lg-4 col-sm-6">
+                            <!--Drugi kafelek-->
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://i.postimg.cc/NjTQz73C/pexels-daria-shevtsova-930004.jpg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <B>Clever Poster</B>
+                                    </h5>
+                                    <p>Print Design</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <!--Drugi kafelek-->
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://i.postimg.cc/mZHRDSDL/pexels-george-milton-7034056.jpg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <B> Record</B>
+                                    </h5>
+                                    <p>Product Mock-Up</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <!--Drugi kafelek-->
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://i.postimg.cc/X7kRG10b/pexels-olya-kobruseva-6560990.jpg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <B>Treehouse Template</B>
+                                    </h5>
+                                    <p>Web Design</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!------------------>
+
+                        <div class="col-lg-4 col-sm-6">
+                            <!--Trzeci kafelek-->
+                            <div class="card">
+                                <div class="card-image">
+                                    <img src="https://i.postimg.cc/pr2BgZcf/pexels-jess-loiterton-6389028.jpg" class="card-img-top" alt="...">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        <B>Marshal Logo</B>
+                                    </h5>
+                                    <p>Branding</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="service">
+        <div class="container">
+            <h1 class="section_title">
+                <B>SERVICE</B> </h1>
+            <p class="subservice">Proin iaculis purus consequat sem cure.</p>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <!-- Tworzymy pierwszą karte -->
+                    <div class="card py-3 mb-3">
+                        <div class="row">
+                            <!--  <div class="col-md-2 pt-4 pl-5 d-none d-sm-block">
+                                <i class="fas fa-truck-moving"></i>
+                                <!--Dodaliśmy ikonę z strony "fontavesome"
+                        </div>-->
+
+                            <div class="col-md-12 ">
+                                <div class="kolorc text-center">
+                                    <h3> <i class="fas fa-shopping-basket fa-2x"></i> <br> <br> E-Commerce </h3>
+                                    <p> A method of preparing and conducting the process of creating or processing some good or information. Technology can mean a specific process.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <!-- Tworzymy drugą karte -->
+                    <div class="card py-3 mb-3">
+                        <div class="row">
+
+
+                            <div class="col-md-12">
+                                <div class="card-body text-center">
+                                    <h3> <i class="fas fa-vote-yea fa-2x"></i> <br> <br> Responsive Web </h3>
+                                    <p> A method of preparing and conducting the process of creating or processing some good or information. Technology can mean a specific process.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <!-- Tworzymy trzecią karte -->
+                    <div class="card py-3 mb-3">
+                        <div class="row">
+
+
+                            <div class="col-md-12">
+                                <div class="card-body text-center">
+                                    <h3><i class="fas fa-shield-alt fa-2x"></i> <br> <br>Web Security </h3>
+                                    <p> A method of preparing and conducting the process of creating or processing some good or information. Technology can mean a specific process.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+
+    <section class="stopka pt-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h6> <i class="far fa-copyright"></i> Shahbzyan Ldt. 2022r </h6>
+                </div>
+
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+
+                        <div class="col-md-3">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+
+                        <div class="col-md-3">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+
+                        <div class="col-md-3">
+                            <i class="fa-solid fa-circle-g"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+</body>
+
+</html>
